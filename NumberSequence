@@ -1,0 +1,16 @@
+#Program to print number in the console starting with 0 to forever
+
+
+int a = 0;
+
+void setup() {
+Serial.begin(9600);
+
+}
+
+void loop(){
+
+a+=1;
+Serial.println(a);
+delay(1000);
+}
