@@ -1,0 +1,21 @@
+#Challance::- Write an Arduino program that prints integers that count up from 1, except that for every 
+multiple of 3 (3, 6, 9, 12, etc.), the word “Fizz” is printed instead.
+
+int a = 1;
+void setup() {
+Serial.begin(9600);
+
+}
+
+void loop(){
+  if ( a % 3 == 0 ){
+  Serial.println("fizz");
+  }
+  else
+  {
+    Serial.println(a);
+  }
+   a+=1;
+   delay(1000);
+
+}
