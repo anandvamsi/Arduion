@@ -1,0 +1,10 @@
+#First program in Arduino setup() and loop() are two basic functions
+- setup() will be called automatically 
+void setup() {
+}
+
+
+Void loop () {
+
+
+}
