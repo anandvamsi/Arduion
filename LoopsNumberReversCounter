@@ -1,0 +1,15 @@
+int no;
+
+void setup() {
+Serial.begin(9600);
+  for (no=30; no >= 0; no--) {
+  Serial.println(no);
+    
+  }
+  
+  
+}
+
+void loop(){
+  
+}
