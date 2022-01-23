@@ -1,10 +1,19 @@
 #First program in Arduino setup() and loop() are two basic functions
 - setup() will be called automatically 
+
+Slot 13 is connected to light internally To turn on/off the LED,please find  the below program
+
 void setup() {
+pinMode(13, OUTPUT);
+}
+
+void loop () {
+  digitalWrite(13, HIGH);
+  delay(1000);
+  digitalWrite(13, LOW);
+  delay(1000);
 }
 
 
-Void loop () {
 
 
-}
