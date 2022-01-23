@@ -14,6 +14,30 @@ void loop () {
   delay(1000);
 }
 
+void :- No return type
+int :- 2 bytes
+float :- 4 bytes
+char :- 1 char 256 posibilites 
+
+
+Global variables
+-------------------
+setting up global variables outside of the loop helps to get the variables inside both functions
+Examples:-
+
+int led = 13;
+
+void setup() {
+pinMode(led, OUTPUT);
+}
+
+void loop () {
+  digitalWrite(led, HIGH);
+  delay(1000);
+  digitalWrite(led, LOW);
+  delay(1000);
+}
+
 
 
 
