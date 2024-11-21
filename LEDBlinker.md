@@ -33,3 +33,19 @@ pinMode(pin, mode);
 INPUT: Configures the pin as an input (e.g., to read a button or sensor).
 OUTPUT: Configures the pin as an output (e.g., to control an LED or relay).
 
+### Example
+```bash
+void setup() {
+  pinMode(13, OUTPUT);  // Sets pin 13 as an output pin
+  pinMode(2, INPUT);    // Sets pin 2 as an input pin
+}
+
+void loop() {
+  digitalWrite(13, HIGH);  // Turns on LED connected to pin 13
+}
+```
+
+In this example:
+  Pin 13 is configured as an output, so we can use digitalWrite() to control an LED.
+  Pin 2 is set as an input, allowing it to read a sensor or switch
+Pin 2 is set as an input, allowing it to read a sensor or switch.
