@@ -1,5 +1,11 @@
 # How to Integrate IR sensor and Servo Motor.
 
+Wiring components of the Servo Motor
+- R is +ve 3.5v
+- B is -ve which is ground
+- Orange is signal 
+
+
 
 ```cpp
 #include <Servo.h>
